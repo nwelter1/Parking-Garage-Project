@@ -5,10 +5,11 @@ class Garage():
         self.currentTicket = currentTicket
     
     def takeTicket(self):
+        self.currentTicket[self.ticket[-1]] = ''
         del self.tickets[-1]
         del self.parkingSpaces[-1]
         print('Please take your ticket...')
-        self.currentTicket[self.ticket[-1]] = ''
+        
 
 
 
