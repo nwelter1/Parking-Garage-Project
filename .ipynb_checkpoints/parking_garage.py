@@ -65,6 +65,5 @@ def runGarage():
             p_garage.payForParking()
         elif response.lower() == 'leave':
             p_garage.leaveGarage()
-            break
     
 runGarage() 
