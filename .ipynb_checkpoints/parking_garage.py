@@ -34,7 +34,7 @@ class Garage():
                 self.currentTicket[response] = 'paid'
                 print(self.currentTicket)
             else:
-                print('you have 15 min 2 leave')
+                print('You have 15 minutes to leave')
                 
             
     def leaveGarage(self):
@@ -53,9 +53,9 @@ class Garage():
 def runGarage():
     p_garage = Garage([1,2, 3, 4, 5,6,7, 8, 9, 10],[1,2, 3, 4, 5,6,7, 8, 9, 10],{})
     response = input('Welcome to Wabash Parking, would you like to park your cark? Yes or No?')
-    if response == 'No':
+    if response.lower() == 'no':
         print('Okay, have a nice day!')
-    elif response == 'Yes':
+    elif response.lower() == 'yes':
         p_garage.takeTicket()
     while True:
         response = input('What would you like to do? Park, Pay, Leave?')
