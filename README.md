@@ -1,5 +1,6 @@
 #PARKING GARAGE PROJECT
 
+NOTES: Parking Garage code currently runs as if it is a pay/park station that is constantly running. Some output is displayed to show movement of ticket numbers from list of available tickets/spaces and the dictionary.
 Nate: 
 Started the project/repo and typed out code for takeTicket and payForParking. Figured out how to execute functions and have everything run smoothly with clean code. Figured out concept for project.
 
